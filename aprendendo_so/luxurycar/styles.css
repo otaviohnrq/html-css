@@ -1,0 +1,87 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eaeff1;
+}
+
+header {
+    background-color: #4a6572;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #8aa7a9;
+    padding: 15px;
+    color: white;
+    height: 100vh;
+    box-shadow: 2px 0px 6px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar h2 {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.sidebar ul li {
+    margin: 10px 0;
+}
+
+.sidebar ul li button {
+    width: 100%;
+    padding: 10px;
+    background-color: #b2c2c4;
+    border: none;
+    color: #4a6572;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.sidebar ul li button:hover {
+    background-color: #e0e7e9;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+    background-color: #f4f7f6;
+}
+
+#vehicle-info {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+#vehicle-info h3 {
+    color: #4a6572;
+}
+
+#vehicle-info p {
+    margin: 10px 0;
+    font-size: 1rem;
+    color: #333;
+}
+
+img {
+    margin-right: 15px;
+    border-radius: 5px;
+}

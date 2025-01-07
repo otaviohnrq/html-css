@@ -1,0 +1,1 @@
+window.alert('Cuidado com os sites em que você acessa!')

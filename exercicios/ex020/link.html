@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body {
+            font: normal 1em Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            font-weight: bold;
+            text-decoration: none;
+            color: red;
+        }
+
+        a:visited {
+            color: darkred;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: seagreen;
+        }
+
+        a::after {
+            content: ' [link]';
+            text-decoration: none;
+            font-weight: normal;
+            color: darkgrey;
+        }
+
+        .special:hover {
+            color: white;
+            background-color: black;
+            text-decoration: none;
+        }
+
+        .special::before {
+            content: '>>';
+            font-weight: lighter;
+            color: darkred;
+        }
+        
+        .special::after {
+            content: '<<';
+            font-weight: lighter;
+            color: darkred;
+        }
+
+    </style>
+</head>
+<body>
+    <H1>Personalizando links</H1>
+    <ul>
+        <li>
+            <p>
+                Acesse meu tiktok através do link abaixo:
+                <a href="https://www.tiktok.com/@otavio.hnrq" target="_blank">
+                    Otávio H no tiktok
+                </a>
+            </p>
+        </li>
+        <li>
+            <p>
+                Para acessar meu instagram:
+                <a href="https://www.instagram.com/otavio.snts/" target="_blank" class="special">
+                    Otávio H no instagram
+                </a>
+            </p>
+        </li>
+    </ul>
+</body>
+</html>

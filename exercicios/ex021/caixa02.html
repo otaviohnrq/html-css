@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            background-color: cadetblue;
+            margin: 0px;
+        }
+
+        header {
+            background-color: darkcyan;
+            border: 5px solid #2e4368;
+            border-radius: 20px 10px;
+            box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.315);
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav {
+            background-color: rgb(8, 94, 94);
+            padding: 3px;
+            box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.39);
+        }
+
+        nav > a {
+            text-decoration: none;
+            font-weight: bolder;
+            color: white;
+            margin-right: 10px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: darkcyan;
+            border: 5px solid #2e4368;
+            border-radius: 20px 10px;
+            box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.315);
+            padding: 10px;
+            margin: 10px;
+        }
+
+        article {
+            background-color: rgb(96, 133, 167);
+            /* border-radius: 20px 10px; */
+            padding: 3px;
+        }
+
+        article > aside {
+            background-color: rgb(74, 110, 143);
+            box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.39);
+        }
+
+        footer {
+            background-color: #2e4368;
+            text-align: center;
+            padding: 5px;
+            margin: 0px;
+            color: white;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+   <header>
+        <h1>Meu site com grouping tags</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+   </header>
+   <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Biografia do escritor Machado de Assis</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore blanditiis architecto dolore saepe totam impedit placeat qui id fugit iste ipsa molestiae, nulla, dolorum dignissimos dolores delectus fuga doloremque corporis.</p>
+                <aside>
+                    <p>Escrito por Machado de Assis</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+   </main>
+   <footer>
+        <p>Desenvolvido por Otávio Henrique.</p>
+   </footer>
+   <div id="bola">
+
+   </div>
+</body>
+</html>

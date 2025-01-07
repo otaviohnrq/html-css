@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LuxuryMotors</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>LuxuryMotors</h1>
+    </header>
+
+    <div class="container">
+        <nav class="sidebar">
+            <h2>Escolha seu veículo</h2>
+            <ul>
+                <li><button onclick="showOptions('carros')">Carros</button></li>
+                <li><button onclick="showOptions('motos')">Motos</button></li>
+            </ul>
+
+            <div id="options" class="options">
+                <!-- Opções de veículos aparecem aqui -->
+            </div>
+        </nav>
+
+        <main class="content">
+            <h2>Detalhes do Veículo</h2>
+            <div id="vehicle-info">
+                <p>Escolha um veículo para ver mais detalhes.</p>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
